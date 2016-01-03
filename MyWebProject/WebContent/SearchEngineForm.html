@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Search Engine Form</title>
+</head>
+<body>
+	<H3 ALIGN="CENTER">Searching the Web</H3>
+	<FORM ACTION="/MyWebProject/SearchEngineServelt" Method="post">
+		<TABLE border=1 align="center">
+			<TR>
+				<TD>Search String:</TD>
+				<TD><INPUT TYPE="TEXT" NAME="searchString" SIZE="30"></TD>
+			</TR>
+			<TR>
+				<TD valign=top>Search Engine:</TD>
+				<TD><INPUT TYPE="RADIO" NAME="searchEngine" VALUE="google">Google<BR>
+					<INPUT TYPE="RADIO" NAME="searchEngine" VALUE="wikipedia">Wikipedia<BR>
+					<INPUT TYPE="RADIO" NAME="searchEngine" VALUE="bing">Bing<BR>
+					<INPUT TYPE="RADIO" NAME="searchEngine" VALUE="yahoo">Yahoo<BR>
+					<INPUT TYPE="RADIO" NAME="searchEngine" VALUE="ask">Ask<BR>
+					<INPUT TYPE="RADIO" NAME="searchEngine" VALUE="amazon">Amazon<BR>
+					<INPUT TYPE="RADIO" NAME="searchEngine" VALUE="ebay">eBay<BR>
+				</TD>
+			</TR>
+			<TR>
+				<TD></TD>
+				<TD><INPUT TYPE="SUBMIT" VALUE="Search"></TD>
+			</TR>
+		</TABLE>
+
+	</FORM>
+
+</body>
+</html>
